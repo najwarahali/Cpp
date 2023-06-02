@@ -49,7 +49,7 @@ The goal of these modules is to introduce you to Object-Oriented Programming .
   
   
   
-  /    A few design requirements    \
+    /    A few design requirements    \
   
   . In C++, it is essential to be mindful of memory leaks. When you allocate memory using the new keyword, it is crucial to ensure that you free that memory appropriately to prevent leaks.
  
@@ -66,7 +66,7 @@ The goal of these modules is to introduce you to Object-Oriented Programming .
   
   
   
-   /       Additional information   \ 
+    /       Additional information   \ 
   
   
     . If necessary, you are allowed to include additional files in your code, such as to split your code into multiple files. Since these assignments are not verified by a program, you have the freedom to add extra files as long as you submit the required files.
