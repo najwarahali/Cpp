@@ -15,6 +15,14 @@ The goal of these modules is to introduce you to Object-Oriented Programming .
    . Generate executable code by compiling your source code with the C++ compiler and the flags -Wall -Wextra -Werror.
    
    
+   
+   
+   
+   
+   
+   
+   
+   
     /    Formatting and naming conventions    \
    
    . Adhere to the prescribed format for exercise directories: ex00, ex01, ..., exn.
@@ -33,6 +41,11 @@ The goal of these modules is to introduce you to Object-Oriented Programming .
 
 
 
+
+
+
+
+
     /    Allowed/Forbidden    \
     
    . It's time to transition from C to C++! As a result, you have the freedom to utilize almost everything from the standard library. Instead of relying solely on what you already know, it would be wise to leverage the C++-specific versions of the functions you are accustomed to.
@@ -48,6 +61,11 @@ The goal of these modules is to introduce you to Object-Oriented Programming .
   
   
   
+ 
+ 
+ 
+ 
+ 
   
     /    A few design requirements    \
   
@@ -60,11 +78,17 @@ The goal of these modules is to introduce you to Object-Oriented Programming .
    . Placing function implementations in header files (excluding function templates) will result in a grade of 0 for the exercise.
  
  
-  . Each header file should be self-contained and able to function independently from other headers. Consequently, it should include all the necessary dependencies. However, it is important to prevent the problem of double inclusion by adding include guards. Failure to do so will result in a grade of 0.
+   . Each header file should be self-contained and able to function independently from other headers. Consequently, it should include all the necessary dependencies. However, it is important to prevent the problem of double inclusion by adding include guards. Failure to do so will result in a grade of 0.
  
  
   
   
+ 
+ 
+ 
+ 
+ 
+ 
   
     /       Additional information   \ 
   
