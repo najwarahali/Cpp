@@ -1,0 +1,32 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: nrahali <nrahali@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/10/25 21:21:26 by nrahali           #+#    #+#              #
+#    Updated: 2022/10/30 22:51:52 by nrahali          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+replace = replace
+CPPFLAGS = -Wall -Wextra -Werror -std=c++98
+CC = c++
+SRC = main.cpp 
+
+OBJ = ${SRC:.cpp=.o}
+
+all : replace
+	
+$(replace): $(OBJ)
+	@$(CC) $(FLAGS) $(OBJ) -o replace
+
+clean :
+	@rm -f $(OBJ)
+	@tput setaf 1; echo "CLEAN COMPLET"
+
+fclean : clean
+	@rm -f replace
+
+re: fclean all
