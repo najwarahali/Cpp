@@ -51,13 +51,13 @@ The goal of these modules is to introduce you to Object-Oriented Programming .
   
     /    A few design requirements    \
   
-  . In C++, it is essential to be mindful of memory leaks. When you allocate memory using the new keyword, it is crucial to ensure that you free that memory appropriately to prevent leaks.
+   . In C++, it is essential to be mindful of memory leaks. When you allocate memory using the new keyword, it is crucial to ensure that you free that memory appropriately to prevent leaks.
  
  
-  . Starting from Module 02 to Module 09, it is expected that your classes follow the Orthodox Canonical Form, unless otherwise specified explicitly.
+   . Starting from Module 02 to Module 09, it is expected that your classes follow the Orthodox Canonical Form, unless otherwise specified explicitly.
  
  
-  . Placing function implementations in header files (excluding function templates) will result in a grade of 0 for the exercise.
+   . Placing function implementations in header files (excluding function templates) will result in a grade of 0 for the exercise.
  
  
   . Each header file should be self-contained and able to function independently from other headers. Consequently, it should include all the necessary dependencies. However, it is important to prevent the problem of double inclusion by adding include guards. Failure to do so will result in a grade of 0.
